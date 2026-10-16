@@ -40,7 +40,6 @@ a { color: inherit; text-decoration: none; }
 button, input, select, textarea { font: inherit; }
 button { cursor: pointer; border: none; background: none; }
 .wrap { width: min(1180px, 100% - 40px); margin-inline: auto; }
-
 .topbar {
   background: var(--navy-deep);
   color: #c8d4e8;
@@ -50,7 +49,6 @@ button { cursor: pointer; border: none; background: none; }
   letter-spacing: 0.04em;
 }
 .topbar strong { color: #b8e88a; font-weight: 600; }
-
 .nav {
   position: sticky;
   top: 0;
@@ -147,7 +145,6 @@ button { cursor: pointer; border: none; background: none; }
   font-size: 11px;
   font-weight: 700;
 }
-
 .hero {
   background:
     radial-gradient(ellipse 60% 50% at 85% 30%, rgba(61,155,28,0.08), transparent),
@@ -202,7 +199,7 @@ button { cursor: pointer; border: none; background: none; }
   color: var(--muted);
 }
 .trust-row span::before {
-  content: "✓";
+  content: "\2713";
   color: var(--green);
   font-weight: 700;
   margin-right: 6px;
@@ -246,7 +243,6 @@ button { cursor: pointer; border: none; background: none; }
 }
 .float-1 { top: 8%; left: 0; }
 .float-2 { bottom: 10%; right: 0; }
-
 .strip {
   border-block: 1px solid var(--line);
   padding: 18px 0;
@@ -261,7 +257,6 @@ button { cursor: pointer; border: none; background: none; }
   color: var(--muted);
 }
 .strip-inner b { color: var(--navy); font-weight: 600; }
-
 section { padding: 72px 0; }
 .section-head {
   display: flex;
@@ -283,7 +278,6 @@ section { padding: 72px 0; }
   color: var(--muted);
   line-height: 1.65;
 }
-
 .cats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -325,7 +319,6 @@ section { padding: 72px 0; }
   font-size: 11px;
   color: var(--muted);
 }
-
 .tools {
   display: flex;
   gap: 10px;
@@ -343,7 +336,6 @@ section { padding: 72px 0; }
 }
 .tools input:focus, .tools select:focus { border-color: var(--navy); }
 .tools input { flex: 1; min-width: 180px; }
-
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -480,7 +472,6 @@ section { padding: 72px 0; }
   background: var(--green);
   color: white;
 }
-
 .feature {
   background: var(--navy);
   color: white;
@@ -528,7 +519,6 @@ section { padding: 72px 0; }
   font-size: 13px;
   color: var(--muted);
 }
-
 .reviews { background: var(--cream); }
 .review-grid {
   display: grid;
@@ -562,7 +552,6 @@ section { padding: 72px 0; }
   font-size: 11px;
   color: var(--muted);
 }
-
 .newsletter {
   background: #eaf3e4;
   padding: 48px 0;
@@ -599,7 +588,6 @@ section { padding: 72px 0; }
   outline: none;
 }
 .news-form input:focus { border-color: var(--green); }
-
 .footer {
   background: var(--navy-deep);
   color: #c3cfe2;
@@ -654,7 +642,6 @@ section { padding: 72px 0; }
   font-size: 12px;
   color: #7a8ba8;
 }
-
 .wa-float {
   position: fixed;
   right: 20px;
@@ -676,7 +663,6 @@ section { padding: 72px 0; }
   transform: translateY(-2px);
   box-shadow: 0 12px 32px rgba(37, 211, 102, 0.5);
 }
-
 .overlay {
   position: fixed;
   inset: 0;
@@ -809,7 +795,6 @@ section { padding: 72px 0; }
   color: var(--navy);
   margin-bottom: 8px;
 }
-
 .modal {
   position: fixed;
   inset: 0;
@@ -926,7 +911,6 @@ section { padding: 72px 0; }
   line-height: 1.55;
   margin: 14px 0;
 }
-
 .toast {
   position: fixed;
   z-index: 100;
@@ -948,14 +932,12 @@ section { padding: 72px 0; }
   opacity: 1;
   transform: translate(-50%, 0);
 }
-
 .empty-state {
   grid-column: 1 / -1;
   text-align: center;
   padding: 48px 20px;
   color: var(--muted);
 }
-
 @media (max-width: 960px) {
   .nav-links { gap: 16px; }
   .product-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1004,14 +986,12 @@ section { padding: 72px 0; }
 </style>
 </head>
 <body>
-
 <div class="topbar">
   LEARN BETTER. LEAD WITH CONFIDENCE. <strong>• Quality learning resources, made accessible.</strong>
 </div>
-
 <header class="nav">
   <a class="brand" href="#home">
-    <img src="logo.png" alt="Faiz Educational Consult">
+    <img src="logo.svg" alt="Faiz Educational Consult">
     <span class="brand-text">
       <strong>FAIZ EDUCATIONAL<br>CONSULT</strong>
       <small>Redefining Education</small>
@@ -1029,7 +1009,6 @@ section { padding: 72px 0; }
     </button>
   </div>
 </header>
-
 <section class="hero" id="home">
   <div class="wrap hero-grid">
     <div>
@@ -1047,7 +1026,7 @@ section { padding: 72px 0; }
       </div>
     </div>
     <div class="hero-visual">
-      <img src="logo.png" alt="Faiz Educational Consult logo">
+      <img src="logo.svg" alt="Faiz Educational Consult logo">
       <div class="float-card float-1">
         <strong>8+ Core resources</strong>
         Textbooks · Exam Prep · Teaching Aids
@@ -1059,7 +1038,6 @@ section { padding: 72px 0; }
     </div>
   </div>
 </section>
-
 <div class="strip">
   <div class="wrap strip-inner">
     <span><b>Textbooks</b> for core subjects</span>
@@ -1068,7 +1046,6 @@ section { padding: 72px 0; }
     <span><b>Nationwide</b> delivery enquiries</span>
   </div>
 </div>
-
 <section id="shop">
   <div class="wrap">
     <div class="section-head">
@@ -1078,7 +1055,6 @@ section { padding: 72px 0; }
       </div>
       <p>Browse our curated collection. Prices are indicative — final availability and delivery are confirmed before payment.</p>
     </div>
-
     <div class="cats" id="cats">
       <button class="cat active" onclick="setCat('All', this)">
         <span class="cat-icon">📚</span>
@@ -1097,7 +1073,6 @@ section { padding: 72px 0; }
         <span><strong>Teaching Aids</strong><small>For educators</small></span>
       </button>
     </div>
-
     <div class="tools">
       <input type="search" id="search" placeholder="Search resources…" oninput="render()" aria-label="Search products">
       <select id="sort" onchange="render()" aria-label="Sort products">
@@ -1107,11 +1082,9 @@ section { padding: 72px 0; }
         <option value="az">Name: A–Z</option>
       </select>
     </div>
-
     <div class="product-grid" id="products"></div>
   </div>
 </section>
-
 <section class="feature" id="about">
   <div class="wrap feature-grid">
     <div>
@@ -1134,26 +1107,13 @@ section { padding: 72px 0; }
       </div>
     </div>
     <div class="stats-panel">
-      <div>
-        <b>8+</b>
-        <span>Curated learning resources</span>
-      </div>
-      <div>
-        <b>3</b>
-        <span>Core categories — Textbooks, Exam Prep, Teaching Aids</span>
-      </div>
-      <div>
-        <b>24h</b>
-        <span>Typical enquiry response via WhatsApp</span>
-      </div>
-      <div>
-        <b>NGN</b>
-        <span>Clear local pricing · Nationwide delivery enquiries</span>
-      </div>
+      <div><b>8+</b><span>Curated learning resources</span></div>
+      <div><b>3</b><span>Core categories — Textbooks, Exam Prep, Teaching Aids</span></div>
+      <div><b>24h</b><span>Typical enquiry response via WhatsApp</span></div>
+      <div><b>NGN</b><span>Clear local pricing · Nationwide delivery enquiries</span></div>
     </div>
   </div>
 </section>
-
 <section class="reviews" id="reviews">
   <div class="wrap">
     <div class="section-head">
@@ -1185,7 +1145,6 @@ section { padding: 72px 0; }
     </div>
   </div>
 </section>
-
 <section class="newsletter">
   <div class="wrap news-row">
     <div>
@@ -1198,13 +1157,12 @@ section { padding: 72px 0; }
     </form>
   </div>
 </section>
-
 <footer class="footer" id="contact">
   <div class="wrap">
     <div class="foot-grid">
       <div>
         <div class="foot-brand">
-          <img src="logo.png" alt="">
+          <img src="logo.svg" alt="">
           <span>
             <strong>FAIZ EDUCATIONAL<br>CONSULT</strong>
             <small>REDEFINING EDUCATION</small>
@@ -1236,12 +1194,10 @@ section { padding: 72px 0; }
     </div>
   </div>
 </footer>
-
 <a class="wa-float" href="#" onclick="event.preventDefault();whatsApp('Hello Faiz Educational Consult, I would like to make an enquiry.')" aria-label="Chat on WhatsApp">
   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   WhatsApp us
 </a>
-
 <div class="overlay" id="overlay" onclick="closeCart()"></div>
 <aside class="drawer" id="drawer" aria-label="Shopping bag">
   <div class="drawer-head">
@@ -1259,7 +1215,6 @@ section { padding: 72px 0; }
     <button class="btn btn-secondary btn-full" style="margin-top:8px" onclick="closeCart()">Continue shopping</button>
   </div>
 </aside>
-
 <div class="modal" id="productModal">
   <div class="modal-card">
     <div class="modal-head">
@@ -1269,7 +1224,6 @@ section { padding: 72px 0; }
     <div class="modal-body" id="detail"></div>
   </div>
 </div>
-
 <div class="modal" id="checkoutModal">
   <div class="modal-card">
     <div class="modal-head">
@@ -1280,63 +1234,30 @@ section { padding: 72px 0; }
       <div class="checkout-grid">
         <form id="orderform" onsubmit="submitOrder(event)">
           <div class="fields">
-            <div class="field">
-              <label for="name">Full name *</label>
-              <input id="name" name="name" autocomplete="name" required>
-            </div>
-            <div class="field">
-              <label for="phone">Phone number *</label>
-              <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="080…">
-            </div>
-            <div class="field wide">
-              <label for="email">Email (optional)</label>
-              <input id="email" name="email" type="email" autocomplete="email">
-            </div>
-            <div class="field wide">
-              <label for="address">Delivery address / area *</label>
-              <input id="address" name="address" autocomplete="street-address" required>
-            </div>
-            <div class="field">
-              <label for="state">State *</label>
-              <input id="state" name="state" required placeholder="e.g. Lagos">
-            </div>
-            <div class="field">
-              <label for="delivery">Delivery preference *</label>
-              <select id="delivery" name="delivery" required>
-                <option value="">Choose one</option>
-                <option>Delivery</option>
-                <option>Pickup (confirm availability)</option>
-              </select>
-            </div>
-            <div class="field wide">
-              <label for="notes">Order notes (optional)</label>
-              <textarea id="notes" name="notes" rows="3"></textarea>
-            </div>
+            <div class="field"><label for="name">Full name *</label><input id="name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="080…"></div>
+            <div class="field wide"><label for="email">Email (optional)</label><input id="email" name="email" type="email" autocomplete="email"></div>
+            <div class="field wide"><label for="address">Delivery address / area *</label><input id="address" name="address" autocomplete="street-address" required></div>
+            <div class="field"><label for="state">State *</label><input id="state" name="state" required placeholder="e.g. Lagos"></div>
+            <div class="field"><label for="delivery">Delivery preference *</label><select id="delivery" name="delivery" required><option value="">Choose one</option><option>Delivery</option><option>Pickup (confirm availability)</option></select></div>
+            <div class="field wide"><label for="notes">Order notes (optional)</label><textarea id="notes" name="notes" rows="3"></textarea></div>
           </div>
-          <div class="payment-note">
-            This form sends an order summary to WhatsApp. No payment is collected on this site. We will confirm stock, final price, delivery and share a Paystack payment link or bank details before you pay.
-          </div>
+          <div class="payment-note">This form sends an order summary to WhatsApp. No payment is collected on this site. We will confirm stock, final price, delivery and share a Paystack payment link or bank details before you pay.</div>
           <button class="btn btn-primary btn-full" type="submit">Send order via WhatsApp ↗</button>
         </form>
         <div class="summary-box">
           <h4>Your order summary</h4>
           <div id="summary"></div>
-          <div class="sum-line sum-total">
-            <span>Subtotal</span>
-            <span id="total">₦0</span>
-          </div>
+          <div class="sum-line sum-total"><span>Subtotal</span><span id="total">₦0</span></div>
           <p class="cart-note" style="margin-top:10px">Shipping calculated after confirmation.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 <div class="toast" id="toast" role="status"></div>
-
 <script>
 const WA_NUMBER = '2348130974630';
-
 const PRODUCTS = [
   { id: 1, n: 'Foundations of English Language', c: 'Textbooks', p: 8500, k: '#183b75', tag: 'Bestseller', r: '4.9', d: 'A structured learning resource for language practice and classroom support across junior and senior secondary levels.' },
   { id: 2, n: 'Mathematics Practice Workbook', c: 'Exam Prep', p: 6200, k: '#23704d', tag: 'Study essential', r: '4.8', d: 'Practice-focused exercises to help learners build confidence in core mathematics topics.' },
@@ -1347,222 +1268,71 @@ const PRODUCTS = [
   { id: 7, n: 'Study Skills & Time Planner', c: 'Teaching Aids', p: 3900, k: '#5d6130', tag: 'Build a habit', r: '4.8', d: 'A simple planner to help students organise study time, goals and weekly routines.' },
   { id: 8, n: 'Senior School Exam Companion', c: 'Exam Prep', p: 11000, k: '#253b58', tag: 'Exam ready', r: '4.8', d: 'A comprehensive study companion for planning revision and practice sessions in senior secondary.' }
 ];
-
-let cat = 'All';
-let cart = {};
-let chosen = null;
-
+let cat = 'All', cart = {}, chosen = null;
 const money = n => new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 }).format(n);
-
 function bookArt(p) {
-  return `<div class="product-art">
-    <span class="badge">${p.tag}</span>
-    <div class="book" style="--cover:${p.k}">
-      <small>Faiz collection</small>
-      <b>${p.n}</b>
-      <small>LEARN · PRACTISE · GROW</small>
-    </div>
-  </div>`;
+  return `<div class="product-art"><span class="badge">${p.tag}</span><div class="book" style="--cover:${p.k}"><small>Faiz collection</small><b>${p.n}</b><small>LEARN · PRACTISE · GROW</small></div></div>`;
 }
-
 function render() {
   const q = document.getElementById('search').value.toLowerCase();
   const s = document.getElementById('sort').value;
-  let list = PRODUCTS.filter(p =>
-    (cat === 'All' || p.c === cat) &&
-    `${p.n} ${p.c} ${p.d}`.toLowerCase().includes(q)
-  );
+  let list = PRODUCTS.filter(p => (cat === 'All' || p.c === cat) && `${p.n} ${p.c} ${p.d}`.toLowerCase().includes(q));
   if (s === 'low') list.sort((a, b) => a.p - b.p);
   if (s === 'high') list.sort((a, b) => b.p - a.p);
   if (s === 'az') list.sort((a, b) => a.n.localeCompare(b.n));
-
   const grid = document.getElementById('products');
-  if (!list.length) {
-    grid.innerHTML = '<div class="empty-state">No matching resources. Try another search or category.</div>';
-    return;
-  }
-  grid.innerHTML = list.map(p => `
-    <article class="product">
-      ${bookArt(p)}
-      <div class="product-info">
-        <div class="product-type">${p.c}</div>
-        <h3>${p.n}</h3>
-        <div class="rating">★★★★★ <span>${p.r}</span></div>
-        <p class="product-desc">${p.d}</p>
-        <div class="price-row">
-          <span class="price">${money(p.p)}</span>
-          <button class="add-btn" onclick="add(${p.id})">＋ Add</button>
-        </div>
-        <button class="btn btn-secondary btn-full" style="margin-top:10px;padding:9px;font-size:12px" onclick="details(${p.id})">View details</button>
-      </div>
-    </article>
-  `).join('');
+  if (!list.length) { grid.innerHTML = '<div class="empty-state">No matching resources. Try another search or category.</div>'; return; }
+  grid.innerHTML = list.map(p => `<article class="product">${bookArt(p)}<div class="product-info"><div class="product-type">${p.c}</div><h3>${p.n}</h3><div class="rating">★★★★★ <span>${p.r}</span></div><p class="product-desc">${p.d}</p><div class="price-row"><span class="price">${money(p.p)}</span><button class="add-btn" onclick="add(${p.id})">＋ Add</button></div><button class="btn btn-secondary btn-full" style="margin-top:10px;padding:9px;font-size:12px" onclick="details(${p.id})">View details</button></div></article>`).join('');
 }
-
-function setCat(c, btn) {
-  cat = c;
-  document.querySelectorAll('.cat').forEach(el => el.classList.toggle('active', el === btn));
-  render();
-}
-
-function add(id, qty = 1) {
-  cart[id] = (cart[id] || 0) + qty;
-  updateCart();
-  say('Added to your bag.');
-}
-
-function change(id, delta) {
-  cart[id] = (cart[id] || 0) + delta;
-  if (cart[id] <= 0) delete cart[id];
-  updateCart();
-}
-
+function setCat(c, btn) { cat = c; document.querySelectorAll('.cat').forEach(el => el.classList.toggle('active', el === btn)); render(); }
+function add(id, qty = 1) { cart[id] = (cart[id] || 0) + qty; updateCart(); say('Added to your bag.'); }
+function change(id, delta) { cart[id] = (cart[id] || 0) + delta; if (cart[id] <= 0) delete cart[id]; updateCart(); }
 function updateCart() {
   const items = PRODUCTS.filter(p => cart[p.id]);
   const count = Object.values(cart).reduce((a, b) => a + b, 0);
   const sum = items.reduce((a, p) => a + p.p * cart[p.id], 0);
-
   document.getElementById('count').textContent = count;
   document.getElementById('subtotal').textContent = money(sum);
-
   const container = document.getElementById('cartitems');
   if (!items.length) {
-    container.innerHTML = `
-      <div class="empty-cart">
-        <div class="icon">🛍️</div>
-        <h3>Your bag is waiting</h3>
-        <p>Add a learning resource to get started.</p>
-        <button class="btn btn-secondary" style="margin-top:16px" onclick="closeCart();document.getElementById('shop').scrollIntoView({behavior:'smooth'})">Browse catalogue</button>
-      </div>`;
+    container.innerHTML = `<div class="empty-cart"><div class="icon">🛍️</div><h3>Your bag is waiting</h3><p>Add a learning resource to get started.</p><button class="btn btn-secondary" style="margin-top:16px" onclick="closeCart();document.getElementById('shop').scrollIntoView({behavior:'smooth'})">Browse catalogue</button></div>`;
   } else {
-    container.innerHTML = items.map(p => `
-      <div class="cart-item">
-        <div class="cart-mini" style="--cover:${p.k}">FAIZ<br>${p.n.split(' ').slice(0, 2).join(' ')}</div>
-        <div>
-          <strong>${p.n}</strong>
-          <small>${money(p.p)} each</small>
-          <div class="qty-ctrl">
-            <button onclick="change(${p.id}, -1)" aria-label="Decrease">−</button>
-            <span>${cart[p.id]}</span>
-            <button onclick="change(${p.id}, 1)" aria-label="Increase">＋</button>
-          </div>
-        </div>
-        <strong>${money(p.p * cart[p.id])}</strong>
-      </div>
-    `).join('');
+    container.innerHTML = items.map(p => `<div class="cart-item"><div class="cart-mini" style="--cover:${p.k}">FAIZ<br>${p.n.split(' ').slice(0, 2).join(' ')}</div><div><strong>${p.n}</strong><small>${money(p.p)} each</small><div class="qty-ctrl"><button onclick="change(${p.id}, -1)" aria-label="Decrease">−</button><span>${cart[p.id]}</span><button onclick="change(${p.id}, 1)" aria-label="Increase">＋</button></div></div><strong>${money(p.p * cart[p.id])}</strong></div>`).join('');
   }
   updateSummary();
 }
-
 function updateSummary() {
   const items = PRODUCTS.filter(p => cart[p.id]);
   const sum = items.reduce((a, p) => a + p.p * cart[p.id], 0);
   const summaryEl = document.getElementById('summary');
   const totalEl = document.getElementById('total');
-  if (summaryEl) {
-    summaryEl.innerHTML = items.length
-      ? items.map(p => `<div class="sum-line"><span>${p.n} × ${cart[p.id]}</span><span>${money(p.p * cart[p.id])}</span></div>`).join('')
-      : '<p class="cart-note">Your bag is empty.</p>';
-  }
+  if (summaryEl) summaryEl.innerHTML = items.length ? items.map(p => `<div class="sum-line"><span>${p.n} × ${cart[p.id]}</span><span>${money(p.p * cart[p.id])}</span></div>`).join('') : '<p class="cart-note">Your bag is empty.</p>';
   if (totalEl) totalEl.textContent = money(sum);
 }
-
-function openCart() {
-  document.getElementById('overlay').classList.add('open');
-  document.getElementById('drawer').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeCart() {
-  document.getElementById('overlay').classList.remove('open');
-  document.getElementById('drawer').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
+function openCart() { document.getElementById('overlay').classList.add('open'); document.getElementById('drawer').classList.add('open'); document.body.style.overflow = 'hidden'; }
+function closeCart() { document.getElementById('overlay').classList.remove('open'); document.getElementById('drawer').classList.remove('open'); document.body.style.overflow = ''; }
 function details(id) {
   chosen = PRODUCTS.find(p => p.id === id);
   const p = chosen;
-  document.getElementById('detail').innerHTML = `
-    <div class="detail-grid">
-      ${bookArt(p)}
-      <div>
-        <div class="product-type">${p.c}</div>
-        <h2>${p.n}</h2>
-        <div class="rating">★★★★★ <span>${p.r} · customer rating</span></div>
-        <div class="detail-price">${money(p.p)}</div>
-        <p class="product-desc" style="margin-bottom:16px">${p.d}</p>
-        <p class="cart-note" style="margin-bottom:16px">Confirm title, edition, level and stock with us before purchase.</p>
-        <label style="font-size:13px;font-weight:600">Quantity
-          <input class="qty-input" id="detailqty" type="number" min="1" max="99" value="1">
-        </label>
-        <button class="btn btn-primary btn-full" style="margin-top:16px" onclick="addDetail()">Add to bag →</button>
-        <button class="btn btn-secondary btn-full" style="margin-top:8px" onclick="whatsApp('Hello, please confirm availability and details for: ${p.n}')">Ask about this resource</button>
-      </div>
-    </div>`;
+  document.getElementById('detail').innerHTML = `<div class="detail-grid">${bookArt(p)}<div><div class="product-type">${p.c}</div><h2>${p.n}</h2><div class="rating">★★★★★ <span>${p.r} · customer rating</span></div><div class="detail-price">${money(p.p)}</div><p class="product-desc" style="margin-bottom:16px">${p.d}</p><p class="cart-note" style="margin-bottom:16px">Confirm title, edition, level and stock with us before purchase.</p><label style="font-size:13px;font-weight:600">Quantity <input class="qty-input" id="detailqty" type="number" min="1" max="99" value="1"></label><button class="btn btn-primary btn-full" style="margin-top:16px" onclick="addDetail()">Add to bag →</button><button class="btn btn-secondary btn-full" style="margin-top:8px" onclick="whatsApp('Hello, please confirm availability and details for: ${p.n}')">Ask about this resource</button></div></div>`;
   document.getElementById('productModal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
-
-function addDetail() {
-  const qty = Math.max(1, Math.min(99, parseInt(document.getElementById('detailqty').value) || 1));
-  add(chosen.id, qty);
-  closeModal('productModal');
-  openCart();
-}
-
-function closeModal(id) {
-  document.getElementById(id).classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-function checkout() {
-  closeCart();
-  if (!Object.keys(cart).length) {
-    say('Your bag is empty. Add a resource first.');
-    return;
-  }
-  updateSummary();
-  document.getElementById('checkoutModal').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function whatsApp(msg) {
-  window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), '_blank', 'noopener,noreferrer');
-}
-
+function addDetail() { const qty = Math.max(1, Math.min(99, parseInt(document.getElementById('detailqty').value) || 1)); add(chosen.id, qty); closeModal('productModal'); openCart(); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); document.body.style.overflow = ''; }
+function checkout() { closeCart(); if (!Object.keys(cart).length) { say('Your bag is empty. Add a resource first.'); return; } updateSummary(); document.getElementById('checkoutModal').classList.add('open'); document.body.style.overflow = 'hidden'; }
+function whatsApp(msg) { window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), '_blank', 'noopener,noreferrer'); }
 function submitOrder(e) {
   e.preventDefault();
-  if (!Object.keys(cart).length) {
-    say('Your bag is empty.');
-    return;
-  }
+  if (!Object.keys(cart).length) { say('Your bag is empty.'); return; }
   const d = new FormData(e.target);
-  const lines = PRODUCTS.filter(p => cart[p.id])
-    .map(p => `• ${p.n} x${cart[p.id]} — ${money(p.p * cart[p.id])}`)
-    .join('\n');
+  const lines = PRODUCTS.filter(p => cart[p.id]).map(p => `• ${p.n} x${cart[p.id]} — ${money(p.p * cart[p.id])}`).join('\n');
   const sum = PRODUCTS.reduce((a, p) => a + p.p * (cart[p.id] || 0), 0);
   const msg = `ORDER ENQUIRY — FAIZ EDUCATIONAL CONSULT\n\nCustomer: ${d.get('name')}\nPhone: ${d.get('phone')}\nEmail: ${d.get('email') || 'Not supplied'}\nAddress: ${d.get('address')}, ${d.get('state')}\nPreference: ${d.get('delivery')}\nNotes: ${d.get('notes') || 'None'}\n\nORDER ITEMS\n${lines}\n\nIndicative subtotal: ${money(sum)}\n\nPlease confirm stock, final prices, delivery fees and payment instructions (Paystack or bank transfer).`;
-  whatsApp(msg);
-  closeModal('checkoutModal');
-  say('Order sent via WhatsApp. We will reply shortly.');
+  whatsApp(msg); closeModal('checkoutModal'); say('Order sent via WhatsApp. We will reply shortly.');
 }
-
-function say(text) {
-  const t = document.getElementById('toast');
-  t.textContent = text;
-  t.classList.add('show');
-  clearTimeout(window._toastTimer);
-  window._toastTimer = setTimeout(() => t.classList.remove('show'), 3200);
-}
-
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    closeCart();
-    closeModal('productModal');
-    closeModal('checkoutModal');
-  }
-});
-
+function say(text) { const t = document.getElementById('toast'); t.textContent = text; t.classList.add('show'); clearTimeout(window._toastTimer); window._toastTimer = setTimeout(() => t.classList.remove('show'), 3200); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeCart(); closeModal('productModal'); closeModal('checkoutModal'); } });
 document.getElementById('year').textContent = new Date().getFullYear();
 render();
 updateCart();

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340">
+  <defs>
+    <linearGradient id="blueRing" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e4a9c"/>
+      <stop offset="100%" stop-color="#0a1f5c"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e53935"/>
+      <stop offset="100%" stop-color="#b71c1c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="155" r="130" fill="none" stroke="#43a047" stroke-width="10"/>
+  <circle cx="200" cy="155" r="120" fill="url(#blueRing)"/>
+  <circle cx="200" cy="155" r="78" fill="#ffffff"/>
+  <g fill="#ffc107">
+    <path d="M55,100 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+    <path d="M42,140 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+    <path d="M48,180 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+    <path d="M62,215 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+  </g>
+  <g fill="#ffc107">
+    <path d="M345,100 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+    <path d="M358,140 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+    <path d="M352,180 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+    <path d="M338,215 l4,12 12,0 -10,7 4,12 -10,-7 -10,7 4,-12 -10,-7 12,0 z"/>
+  </g>
+  <path id="arcTop" d="M 85,155 A 115,115 0 0,1 315,155" fill="none"/>
+  <text fill="#ffffff" font-family="Arial Black, Helvetica, sans-serif" font-size="22" font-weight="bold" letter-spacing="2">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">FAIZ EDUCATIONAL</textPath>
+  </text>
+  <text x="200" y="245" text-anchor="middle" fill="#ffffff" font-family="Arial Black, Helvetica, sans-serif" font-size="26" font-weight="bold" letter-spacing="3">CONSULT</text>
+  <g transform="translate(200,155)">
+    <circle cx="0" cy="-32" r="16" fill="#e91e8c"/>
+    <path d="M-28,5 C-32,-15 -18,-22 -8,-18 L0,8 L8,-18 C18,-22 32,-15 28,5 L20,48 C8,58 -8,58 -20,48 Z" fill="#e91e8c"/>
+  </g>
+  <path d="M40,275 Q70,255 200,265 Q330,255 360,275 L355,310 Q200,325 45,310 Z" fill="url(#ribbon)" stroke="#ffc107" stroke-width="4"/>
+  <text x="200" y="298" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="16" font-style="italic">
+    <tspan font-weight="bold" font-style="normal">FEC</tspan>
+    <tspan dx="4">·</tspan>
+    <tspan dx="4">Redefining Education</tspan>
+  </text>
+  <g transform="translate(200,325)">
+    <path d="M-30,0 Q-15,-12 0,-4 Q15,-12 30,0 Q15,8 0,4 Q-15,8 -30,0" fill="#2e7d32"/>
+    <path d="M-28,-2 Q-14,-10 0,-3" fill="none" stroke="#ffeb3b" stroke-width="2"/>
+    <path d="M28,-2 Q14,-10 0,-3" fill="none" stroke="#ffeb3b" stroke-width="2"/>
+  </g>
+</svg>
